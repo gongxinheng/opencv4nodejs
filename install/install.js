@@ -1,4 +1,4 @@
-const opencvBuild = require(`@nut-tree/opencv-build-${process.platform}`)
+const opencvBuild = require(`@gongxinheng/opencv-build-${process.platform}`)
 const child_process = require('child_process')
 const fs = require('fs')
 const log = require('npmlog')
