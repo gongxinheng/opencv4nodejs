@@ -20,12 +20,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nut-tree/opencv4nodejs.git"
+    "url": "https://github.com/gongxinheng/opencv4nodejs.git"
   },
   "bugs": {
-    "url": "https://github.com/nut-tree/opencv4nodejs/issues"
+    "url": "https://github.com/gongxinheng/opencv4nodejs/issues"
   },
-  "homepage": "https://github.com/nut-tree/opencv4nodejs#readme",
+  "homepage": "https://github.com/gongxinheng/opencv4nodejs#readme",
   "main": "./lib/opencv4nodejs.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
@@ -42,8 +42,7 @@
     "nan": "^2.14.0",
     "native-node-utils": "^0.2.7",
     "npmlog": "^4.1.2",
-    "prebuild-install": "^5.3.2",
-    "@types/node": ">6"
+    "prebuild-install": "^5.3.2"
   },
   "optionalDependencies": {
     "@types/node": ">6"
@@ -54,10 +53,5 @@
   "opencv": "4.1.1-5",
   "devDependencies": {
     "prebuild": "^9.1.0"
-  },
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
   }
 }
