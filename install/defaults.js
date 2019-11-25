@@ -1,4 +1,4 @@
-const opencvBuild = require(`@nut-tree/opencv-build-${process.platform}`)
+const opencvBuild = require(`@gongxinheng/opencv-build-${process.platform}`)
 const { resolvePath } = require('../lib/commons')
 const fs = require('fs')
 
